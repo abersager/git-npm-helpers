@@ -1,3 +1,3 @@
-# now-you-see-me
+# git-npm-helpers
 
 Directory distribution helpers.

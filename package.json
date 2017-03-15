@@ -1,5 +1,5 @@
 {
-  "name": "now-you-see-me",
+  "name": "git-npm-helpers",
   "description": "Commit generated files on release but hide them during development",
   "bin": {
     "git-hide": "./git-hide.sh",
