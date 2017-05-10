@@ -67,3 +67,5 @@ This create a new build, bump the version, commit the changed files, tag the com
 ## Known issues
 
 - Sometimes, git gets unhappy about the changes in the dist directory when changing branches during development. Since these are throwaway files anyway, simply delete the files and rebuild.
+
+- Git dependencies don't work well when being resolved as part of a Docker build. This repo includes a script that works around this issue by first checking out Git dependencies into local directories and then rewriting the respective dependencies in `package.json` to point to the local directories instead. At the moment, this script is Github-specific.
